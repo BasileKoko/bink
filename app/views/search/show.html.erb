@@ -1,0 +1,24 @@
+<h1 class="welcome"> Result for search <%= @search.id%></h1>
+<br><br>
+<div class="search">
+  <ul>
+    <li>
+      Noun:  <%= @search.noun%>
+    </li>
+    <li>
+      Colour:  <%= @search.colour%>
+    </li>
+    <li>
+      Date:  <%= (@search.created_at.to_s).split(" ").first%>
+    </li>
+    <li>
+      Time:  <%= (@search.created_at.to_s).split(" ")[1]%>
+    </li>
+    <li>
+      http_response_ms: <%= @search.http_response_ms %>
+    </li>
+ </ul>
+ <%= link_to "Search History", search_index_path %> <br>
+ <%= link_to "HomePage", root_path %>
+
+</div>

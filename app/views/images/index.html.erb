@@ -1,12 +1,18 @@
 <h1 class= "welcome">Search Results</h1>
+<br><br>
+<p class="select"> <%= link_to "Search History", search_index_path %> |
+<%= link_to "HomePage", root_path %> </p>
+
 <% if @pictures %>
-<ul>
-  <% @pictures.each do |pic| %>
-  <li>
-    <%= link_to (image_tag(pic["previewURL"])), pic["pageURL"]%>
-  </li> <br>
-  <%end%>
+<div class="search">
   <ul>
-<% else %>
-<h1> You have not search any image <h1>
-<% end%>
+    <% @pictures.each do |pic| %>
+    <li>
+      <%= link_to (image_tag(pic["previewURL"])), pic["pageURL"]%>
+    </li> <br>
+    <%end%>
+    <ul>
+  <% else %>
+  <h1> You have not search any image <h1>
+  <% end%>
+</div>

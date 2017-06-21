@@ -33,10 +33,5 @@ class SearchImage
     }
   end
 
-  def search_again(url)
-    # JSON.parse(Faraday.get(url).body)["hits"]
-    # Faraday.get(url).reason_phrase
-    url
-  end
 
 end

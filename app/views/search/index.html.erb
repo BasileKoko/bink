@@ -1,9 +1,11 @@
 <% if @searches %>
+<h1 class="welcome"> Search History</h1>
   <% @searches.each do |s| %>
   <ul>
     <li>
-      <%= s[:noun] %>
-      <%= s[:colour] %>
+    <%=  s[:colour] %> <%= s[:noun] %>
+    <%= link_to "Show", search_path(s)%> | <%= link_to "HomePage", root_path%> | 
+    <%= link_to "Search Again", images_path(colour: "#{s[:colour]}"), method: :post%>
     </li>
   </ul>
   <% end %>
