@@ -25,10 +25,18 @@ class SearchImage
   def parse_api(url)
     response = Faraday.get(url)
     {
-     "noun": noun, "colour": colour,
-     "http_response_ms": response.status,
+     "noun": noun,
+     "colour": colour,
+     "http_response_ms": response.reason_phrase,
+     "url": url,
      "result": JSON.parse(response.body)["hits"]
-   }
-
+    }
   end
+
+  def search_again(url)
+    # JSON.parse(Faraday.get(url).body)["hits"]
+    # Faraday.get(url).reason_phrase
+    url
+  end
+
 end
