@@ -1,0 +1,12 @@
+<% if @searches %>
+  <% @searches.each do |s| %>
+  <ul>
+    <li>
+      <%= s[:noun] %>
+      <%= s[:colour] %>
+    </li>
+  </ul>
+  <% end %>
+<% else %>
+<h1 class=welcome> No searches available </h1>
+<% end %>
