@@ -1,1 +1,12 @@
-<h1>Finally got to Images controller</h1>
+<h1 class= "welcome">Search Results</h1>
+<% if @pictures %>
+<ul>
+  <% @pictures.each do |pic| %>
+  <li>
+    <%= link_to (image_tag(pic["previewURL"])), pic["pageURL"]%>
+  </li> <br>
+  <%end%>
+  <ul>
+<% else %>
+<h1> You have not search any image <h1>
+<% end%>
