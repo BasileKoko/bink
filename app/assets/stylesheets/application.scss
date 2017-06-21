@@ -18,8 +18,9 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-
+a.heading-md {
+  color: white;
+}
 i.icon-2x {
   font-size: 30px;
 }
@@ -81,8 +82,8 @@ i.icon-2x {
 .servive-block-red {
   background: #e74c3c;
 }
-.servive-block-sea {
-  background: #1abc9c;
+.servive-block-pink {
+  background: #FF1493;
 }
 .servive-block-grey {
   background: #95a5a6;
