@@ -1,6 +1,7 @@
 
 <h1 class="welcome">Welcome to Image finder </h1>
 <p class= "select">Select a colour to start an image search</p>
+<br><br>
 
 
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -9,19 +10,19 @@
 
           <div class="col-md-4 col-sm-6">
             <div class="servive-block servive-block-green">
-              <h2>  <%= link_to "Green Box", images_path, class: "heading-md"%> </h2>
+              <h2>  <%= link_to "Green", images_path(colour: "green"), method: :post, class: "heading-md"%> </h2>
             </div>
           </div>
 
           <div class="col-md-4 col-sm-6">
             <div class="servive-block servive-block-yellow">
-              <h2>  <%= link_to "Yellow Box", images_path, class: "heading-md"%> </h2>
+              <h2>  <%= link_to "Yellow", images_path(colour: "yellow"), method: :post, class: "heading-md"%> </h2>
             </div>
           </div>
 
         <div class="col-md-4 col-sm-6">
             <div class="servive-block servive-block-dark-blue">
-              <h2>  <%= link_to "Blue Box", images_path, class: "heading-md"%> </h2>
+              <h2>  <%= link_to "Blue", images_path(colour: "blue"), method: :post, class: "heading-md"%> </h2>
             </div>
         </div>
     </div>
@@ -29,19 +30,19 @@
     <div class="row margin-bottom-10">
         <div class="col-md-4 col-sm-6">
             <div class="servive-block servive-block-orange">
-              <h2>  <%= link_to "Orange Box", images_path, class: "heading-md"%> </h2>
+              <h2>  <%= link_to "Orange", images_path(colour: "orange"), method: :post, class: "heading-md"%> </h2>
             </div>
         </div>
 
         <div class="col-md-4 col-sm-6">
             <div class="servive-block rounded servive-block-pink">
-              <h2>  <%= link_to "Pink Box", images_path, class: "heading-md"%> </h2>
+              <h2>  <%= link_to "Pink", images_path(colour: "pink"), method: :post, class: "heading-md"%> </h2>
 
             </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="servive-block servive-block-red">
-            <h2>  <%= link_to "Red Box", images_path, class: "heading-md"%> </h2>
+            <h2>  <%= link_to "Red", images_path(colour: "red"), method: :post, class: "heading-md"%> </h2>
           </div>
         </div>
 
@@ -52,7 +53,7 @@
 
         <div class="col-md-4 col-sm-6">
             <div class="servive-block servive-block-purple">
-              <h2>  <%= link_to "Purple Box", images_path, class: "heading-md"%> </h2>
+              <h2>  <%= link_to "Purple", images_path(colour: "purple"), method: :post, class: "heading-md"%> </h2>
             </div>
         </div>
     </div>
