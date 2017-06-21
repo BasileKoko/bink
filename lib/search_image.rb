@@ -1,5 +1,6 @@
 class SearchImage
   require 'faraday'
+  require 'dotenv/load'
 
   attr_reader :search_term, :colour, :noun
 
@@ -16,7 +17,7 @@ class SearchImage
   def api_url(colour)
     @colour = colour
     @noun = @search_term.sample
-    url = "https://pixabay.com/api/?key=5686710-bdb991c76f609df003679b957&q=" + @colour + "+" + @noun + "&image_type=photo&pretty=true&per_page=5"
+    url = "https://pixabay.com/api/?key=#{ENV["API_KEY"]}&q=" + @colour + "+" + @noun + "&image_type=photo&pretty=true&per_page=5"
     parse_api(url)
   end
 
