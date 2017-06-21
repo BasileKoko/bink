@@ -1,6 +1,6 @@
 class SearchController < ApplicationController
   def index
-    @searches = Search.all
+    @searches = Search.order(created_at: :desc)
   end
 
   def show
