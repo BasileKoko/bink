@@ -1,6 +1,6 @@
 ### ImageFinder Site
 Link to website on [Heroku](https://basilek-imagesearch.herokuapp.com/)  
-In this project , I Create a site that searches images based on a user selecting a coloured square.
+In this project , I create a site that searches images based on a user selecting a coloured square.
 
 **Technology**
 
@@ -16,7 +16,7 @@ In this project , I Create a site that searches images based on a user selecting
  - Ruby
  - SQL
  - HTML
- -CSS
+ - CSS
 
 **Website Screenshots**
 1. Visit website on [Heroku](https://basilek-imagesearch.herokuapp.com/)
@@ -34,7 +34,7 @@ In this project , I Create a site that searches images based on a user selecting
 
 **Step up**
 
-1. In terminal, ```git clone https://github.com/BasileKoko/bink.git```, then ```cd bink```
+1. In terminal, ```git clone https://github.com/BasileKoko/bink.git```, then ```cd bink/```
 2. Run ```bundle install```
 3. Create Databases ```rake db:create``` , then ```rake db:migrate```
 4. To run website on server, in terminal enter ```rails s```
