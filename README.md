@@ -27,10 +27,10 @@ In this project , I Create a site that searches images based on a user selecting
 3. Click on a picture
 ![Search Result](https://github.com/BasileKoko/bink/blob/master/screenshots/Search_Result.png)  
 
-4. Visit 'Search history'
+4. Visit Search history
 ![Search History](https://github.com/BasileKoko/bink/blob/master/screenshots/Search_History.png)  
 
-5. Click 'Show'
+5. Click Show
 ![Show](https://github.com/BasileKoko/bink/blob/master/screenshots/Show.png)  
 
 **Step up**
