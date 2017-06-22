@@ -1,5 +1,5 @@
 ### ImageFinder Site
-Link to website on Heroku (make Heroku clickable)
+Link to website on Heroku
 
 In this project , I Create a site that searches images based on a user selecting a coloured square.
 
@@ -22,9 +22,16 @@ In this project , I Create a site that searches images based on a user selecting
 **Website Screenshots**
 1. visit (Link)
 2. Click a text inside a coloured box
+![HomePage](https://github.com/BasileKoko/bink/blob/master/screenshots/HomePage.png)
+
 3. Click on a picture
+![Search Result](https://github.com/BasileKoko/bink/blob/master/screenshots/Search_Result.png)
+
 4. Visit 'Search history'
+![Search History](https://github.com/BasileKoko/bink/blob/master/screenshots/Search_History.png)
+
 5. Click 'Show'
+![Show](https://github.com/BasileKoko/bink/blob/master/screenshots/Show.png)
 
 **Step up**
 1. In terminal, ```git clone https://github.com/BasileKoko/bink.git```
@@ -35,7 +42,7 @@ In this project , I Create a site that searches images based on a user selecting
 
 
 **Testing**
-test screenshot
+![Testing](https://github.com/BasileKoko/bink/blob/master/screenshots/Testing.png)
 
 
 **Comment**
