@@ -21,17 +21,17 @@ In this project , I Create a site that searches images based on a user selecting
 
 **Website Screenshots**
 1. visit (Link)
-2. Click a text inside a coloured box
+2. View HomePage and click a text inside a coloured box to start search
 ![HomePage](https://github.com/BasileKoko/bink/blob/master/screenshots/HomePage.png)
 
-3. Click on a picture
+3. View search result and click on a picture to visit its webpage
 ![Search Result](https://github.com/BasileKoko/bink/blob/master/screenshots/Search_Result.png)  
 
-4. Visit Search history
-![Search History](https://github.com/BasileKoko/bink/blob/master/screenshots/Search_History.png)  
+4. View Search history
+![Search History](https://github.com/BasileKoko/bink/blob/master/screenshots/Search_History.png)
 
-5. Click Show
-![Show](https://github.com/BasileKoko/bink/blob/master/screenshots/Show.png)  
+5. View Show with more details for a search history
+![Show](https://github.com/BasileKoko/bink/blob/master/screenshots/Show.png)
 
 **Step up**
 1. In terminal, ```git clone https://github.com/BasileKoko/bink.git```
