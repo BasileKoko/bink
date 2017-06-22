@@ -1,6 +1,7 @@
 class SearchImage
   require 'faraday'
   require 'dotenv/load'
+  require 'json'
 
   attr_reader :search_term, :colour, :noun
 
