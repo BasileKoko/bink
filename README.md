@@ -23,7 +23,7 @@ In this project , I Create a site that searches images based on a user selecting
 1. visit (Link)
 2. Click a text inside a coloured box
 3. Click on a picture
-4. Click 'Search history'
+4. Visit 'Search history'
 5. Click 'Show'
 
 **Step up**
@@ -31,14 +31,14 @@ In this project , I Create a site that searches images based on a user selecting
 2. Run ```bundle install```
 3. Create Databases ```rake db:create``` , then ```rake db:migrate```
 4. To run website on server, in terminal enter ```rails s```
-5. Visit localhost:3000
+5. Visit ```localhost:3000```
 
 
 **Testing**
 test screenshot
 
 
-**Comment***
+**Comment**
 
 I have implemented all the functionalities required for this code challenge.
 However I would have done a better job with my CSS design if I had more time.
