@@ -32,6 +32,4 @@ class SearchImage
      "result": JSON.parse(response.body)["hits"]
     }
   end
-
-
 end
