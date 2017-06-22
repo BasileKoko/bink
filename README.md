@@ -1,5 +1,5 @@
 ### ImageFinder Site
-Link to website on Heroku
+Link to website on [Heroku](https://basilek-imagesearch.herokuapp.com/)
 
 In this project , I Create a site that searches images based on a user selecting a coloured square.
 
@@ -20,7 +20,7 @@ In this project , I Create a site that searches images based on a user selecting
  -CSS
 
 **Website Screenshots**
-1. Visit (Link)
+1. Visit website on [Heroku](https://basilek-imagesearch.herokuapp.com/)
 2. View HomePage and click a text inside a coloured box to start search  
 ![HomePage](https://github.com/BasileKoko/bink/blob/master/screenshots/HomePage.png)
 
