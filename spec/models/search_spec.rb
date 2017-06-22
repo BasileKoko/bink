@@ -2,7 +2,7 @@ require 'rails_helper'
 require 'spec_helper'
 
 RSpec.describe Search, type: :model do
-  describe 'validations' do
+  describe 'Validations for model Search' do
     it { should validate_presence_of(:noun) }
     it { should validate_presence_of(:colour) }
     it { should validate_presence_of(:http_response_ms) }

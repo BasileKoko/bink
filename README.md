@@ -20,7 +20,7 @@ In this project , I Create a site that searches images based on a user selecting
  -CSS
 
 **Website Screenshots**
-1. visit (Link)
+1. Visit (Link)
 2. View HomePage and click a text inside a coloured box to start search  
 ![HomePage](https://github.com/BasileKoko/bink/blob/master/screenshots/HomePage.png)
 
@@ -34,7 +34,7 @@ In this project , I Create a site that searches images based on a user selecting
 ![Show](https://github.com/BasileKoko/bink/blob/master/screenshots/Show.png)
 
 **Step up**
-1. In terminal, ```git clone https://github.com/BasileKoko/bink.git```
+1. In terminal, ```git clone https://github.com/BasileKoko/bink.git```, then ```cd bink```
 2. Run ```bundle install```
 3. Create Databases ```rake db:create``` , then ```rake db:migrate```
 4. To run website on server, in terminal enter ```rails s```
