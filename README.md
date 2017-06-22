@@ -43,9 +43,3 @@ In this project , I Create a site that searches images based on a user selecting
 
 **Testing**  
 ![Testing](https://github.com/BasileKoko/bink/blob/master/screenshots/Testing.png)
-
-
-**Comment**
-
-I have implemented all the functionalities required for this code challenge.
-However I would have done a better job with my CSS design if I had more time.
